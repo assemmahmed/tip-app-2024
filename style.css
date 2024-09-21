@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+* {
+    font-family: "Sofadi One", system-ui;
+}
+
+main {
+    background-image: url("https://images.pexels.com/photos/3907161/pexels-photo-3907161.jpeg?auto=compress&cs=tinysrgb&w=600");
+    height: 100vh;
+    background-position: center;
+    background-size: contain;
+    
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 1%;
+    background-color: rgba(251, 252, 252, 0.404);
+}
